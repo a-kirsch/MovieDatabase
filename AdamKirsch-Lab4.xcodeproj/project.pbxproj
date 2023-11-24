@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0834A762AE600B00000554A /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0834A752AE600B00000554A /* MovieCollectionViewCell.swift */; };
+		E0834A7A2AE64C330000554A /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0834A792AE64C330000554A /* FavoriteViewController.swift */; };
+		E0834A7C2AE6CF290000554A /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0834A7B2AE6CF290000554A /* StateController.swift */; };
 		E0EC00422ADDDD8900823DEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC00412ADDDD8900823DEF /* AppDelegate.swift */; };
 		E0EC00442ADDDD8900823DEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC00432ADDDD8900823DEF /* SceneDelegate.swift */; };
 		E0EC00462ADDDD8900823DEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC00452ADDDD8900823DEF /* ViewController.swift */; };
@@ -16,6 +19,12 @@
 		E0EC00592ADDDD8C00823DEF /* AdamKirsch_Lab4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC00582ADDDD8C00823DEF /* AdamKirsch_Lab4Tests.swift */; };
 		E0EC00632ADDDD8C00823DEF /* AdamKirsch_Lab4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC00622ADDDD8C00823DEF /* AdamKirsch_Lab4UITests.swift */; };
 		E0EC00652ADDDD8C00823DEF /* AdamKirsch_Lab4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC00642ADDDD8C00823DEF /* AdamKirsch_Lab4UITestsLaunchTests.swift */; };
+		E0EC00742ADDEF5600823DEF /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC00732ADDEF5600823DEF /* MovieViewController.swift */; };
+		E0EFE1582AE74AB80018C453 /* WatchlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EFE1572AE74AB80018C453 /* WatchlistViewController.swift */; };
+		E0EFE15A2AE86D900018C453 /* PopUpModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EFE1592AE86D900018C453 /* PopUpModalViewController.swift */; };
+		E0EFE15C2AE97EA90018C453 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E0EFE15B2AE97EA90018C453 /* README.md */; };
+		E0EFE15E2AEAD2AC0018C453 /* SuggestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EFE15D2AEAD2AC0018C453 /* SuggestionsViewController.swift */; };
+		E0FFF0402AE334ED00B1870F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFF03F2AE334ED00B1870F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E0834A752AE600B00000554A /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		E0834A792AE64C330000554A /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		E0834A7B2AE6CF290000554A /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 		E0EC003E2ADDDD8900823DEF /* AdamKirsch-Lab4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AdamKirsch-Lab4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EC00412ADDDD8900823DEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0EC00432ADDDD8900823DEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,12 @@
 		E0EC005E2ADDDD8C00823DEF /* AdamKirsch-Lab4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AdamKirsch-Lab4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EC00622ADDDD8C00823DEF /* AdamKirsch_Lab4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdamKirsch_Lab4UITests.swift; sourceTree = "<group>"; };
 		E0EC00642ADDDD8C00823DEF /* AdamKirsch_Lab4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdamKirsch_Lab4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0EC00732ADDEF5600823DEF /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		E0EFE1572AE74AB80018C453 /* WatchlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistViewController.swift; sourceTree = "<group>"; };
+		E0EFE1592AE86D900018C453 /* PopUpModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpModalViewController.swift; sourceTree = "<group>"; };
+		E0EFE15B2AE97EA90018C453 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E0EFE15D2AEAD2AC0018C453 /* SuggestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsViewController.swift; sourceTree = "<group>"; };
+		E0FFF03F2AE334ED00B1870F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +117,7 @@
 		E0EC00402ADDDD8900823DEF /* AdamKirsch-Lab4 */ = {
 			isa = PBXGroup;
 			children = (
+				E0834A752AE600B00000554A /* MovieCollectionViewCell.swift */,
 				E0EC00412ADDDD8900823DEF /* AppDelegate.swift */,
 				E0EC00432ADDDD8900823DEF /* SceneDelegate.swift */,
 				E0EC00452ADDDD8900823DEF /* ViewController.swift */,
@@ -106,6 +125,14 @@
 				E0EC004A2ADDDD8C00823DEF /* Assets.xcassets */,
 				E0EC004C2ADDDD8C00823DEF /* LaunchScreen.storyboard */,
 				E0EC004F2ADDDD8C00823DEF /* Info.plist */,
+				E0EC00732ADDEF5600823DEF /* MovieViewController.swift */,
+				E0FFF03F2AE334ED00B1870F /* DetailViewController.swift */,
+				E0834A792AE64C330000554A /* FavoriteViewController.swift */,
+				E0834A7B2AE6CF290000554A /* StateController.swift */,
+				E0EFE1572AE74AB80018C453 /* WatchlistViewController.swift */,
+				E0EFE1592AE86D900018C453 /* PopUpModalViewController.swift */,
+				E0EFE15B2AE97EA90018C453 /* README.md */,
+				E0EFE15D2AEAD2AC0018C453 /* SuggestionsViewController.swift */,
 			);
 			path = "AdamKirsch-Lab4";
 			sourceTree = "<group>";
@@ -233,6 +260,7 @@
 			files = (
 				E0EC004E2ADDDD8C00823DEF /* LaunchScreen.storyboard in Resources */,
 				E0EC004B2ADDDD8C00823DEF /* Assets.xcassets in Resources */,
+				E0EFE15C2AE97EA90018C453 /* README.md in Resources */,
 				E0EC00492ADDDD8900823DEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +289,14 @@
 				E0EC00462ADDDD8900823DEF /* ViewController.swift in Sources */,
 				E0EC00422ADDDD8900823DEF /* AppDelegate.swift in Sources */,
 				E0EC00442ADDDD8900823DEF /* SceneDelegate.swift in Sources */,
+				E0834A7A2AE64C330000554A /* FavoriteViewController.swift in Sources */,
+				E0FFF0402AE334ED00B1870F /* DetailViewController.swift in Sources */,
+				E0834A7C2AE6CF290000554A /* StateController.swift in Sources */,
+				E0EFE1582AE74AB80018C453 /* WatchlistViewController.swift in Sources */,
+				E0EFE15A2AE86D900018C453 /* PopUpModalViewController.swift in Sources */,
+				E0834A762AE600B00000554A /* MovieCollectionViewCell.swift in Sources */,
+				E0EC00742ADDEF5600823DEF /* MovieViewController.swift in Sources */,
+				E0EFE15E2AEAD2AC0018C453 /* SuggestionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -449,6 +485,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,6 +513,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +535,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "mobileapp.AdamKirsch-Lab4Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,7 +554,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "mobileapp.AdamKirsch-Lab4Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +572,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "mobileapp.AdamKirsch-Lab4UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -551,6 +590,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "mobileapp.AdamKirsch-Lab4UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
